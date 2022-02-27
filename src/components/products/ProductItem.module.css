@@ -1,0 +1,40 @@
+.product {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.productImg {
+  width: 100%;
+  height: 200px;
+}
+
+.details {
+  padding: 1rem;
+  display: grid;
+}
+
+.details div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details div h3 {
+  font-weight: 100;
+}
+
+.details button {
+  justify-self: right;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .details div h3 {
+    font-size: 1.8rem;
+  }
+}

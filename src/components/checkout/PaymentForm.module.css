@@ -1,0 +1,48 @@
+.paymentForm h3 {
+  font-weight: 100;
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+}
+
+.list div,
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.controls button {
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.backBtn {
+  background: none;
+  border: 1px solid black;
+  color: black;
+}
+
+.nextBtn {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}

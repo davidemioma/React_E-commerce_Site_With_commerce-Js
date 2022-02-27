@@ -1,0 +1,68 @@
+.item {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.itemImg {
+  width: 100%;
+  height: 200px;
+}
+
+.details {
+  padding: 1rem;
+  display: grid;
+}
+
+.details .info,
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .info h3 {
+  font-weight: 100;
+}
+
+.controls div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.controls div button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.controls div button:hover {
+  transform: scale(1.1);
+  background: darkgray;
+}
+
+.removeBtn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 1024px) {
+  .details .info h3 {
+    font-size: 1.8rem;
+  }
+}

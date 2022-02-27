@@ -1,0 +1,43 @@
+.formContent {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls button {
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.backBtn {
+  background: none;
+  border: 1px solid black;
+  color: black;
+}
+
+.nextBtn {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .formContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
